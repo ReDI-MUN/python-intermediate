@@ -6,8 +6,8 @@ This repository contains a collection of Jupyter notebooks designed to introduce
 
 ### Lesson 0 - Welcome to Jupyter
 
-1. [Intro_to_Jupyter_Lab.ipynb](./lessons/0%20-%20Welcome%20to%20Jupyter/Intro_to_Jupyter_Lab.ipynb) - An introduction to Jupyter notebooks and Jupyter Lab
-2. [Installing_Python_Anaconda_and_Jupyter_Lab.ipynb](lessons/0%20-%20Welcome%20to%20Jupyter/Installing_Python_Anaconda_and_Jupyter_Lab.ipynb) - A guide on how to install Python, Anaconda, and Jupyter Lab on Windows and macOS, and how to open Jupyter Lab from a project directory
+1. [Installing_Python_Anaconda_and_Jupyter_Lab.ipynb](lessons/0%20-%20Welcome%20to%20Jupyter/Installing_Python_Anaconda_and_Jupyter_Lab.ipynb) - A guide on how to install Python, Anaconda, and Jupyter Lab on Windows and macOS, and how to open Jupyter Lab from a project directory
+2. [Intro_to_Jupyter_Lab.ipynb](./lessons/0%20-%20Welcome%20to%20Jupyter/Intro_to_Jupyter_Lab.ipynb) - An introduction to Jupyter notebooks and Jupyter Lab
 3. [Code_Execution_and_Console_Output.ipynb](lessons/0%20-%20Welcome%20to%20Jupyter/Code_Execution_and_Console_Output.ipynb) - A notebook demonstrating code execution and console output in Jupyter Notebooks, including examples and exercises
 
 ## Getting Started
