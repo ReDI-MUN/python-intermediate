@@ -10,6 +10,11 @@ This repository contains a collection of Jupyter notebooks designed to introduce
 2. [Intro_to_Jupyter_Lab.ipynb](./lessons/0%20-%20Welcome%20to%20Jupyter/Intro_to_Jupyter_Lab.ipynb) - An introduction to Jupyter notebooks and Jupyter Lab
 3. [Code_Execution_and_Console_Output.ipynb](lessons/0%20-%20Welcome%20to%20Jupyter/Code_Execution_and_Console_Output.ipynb) - A notebook demonstrating code execution and console output in Jupyter Notebooks, including examples and exercises
 
+### Lesson 10: Introduction to Object-Oriented Programming (OOP)
+1. [Intro_to_Object_Oriented_Programming.ipynb](lessons/10%20-%20Introduction%20to%20OOP/Introduction_to_Object_Oriented_Programming.ipynb) - Introduces object-oriented programming basic concepts
+2. [Introduction_to_Classes_and_Objects.ipynb](lessons/10%20-%20Introduction%20to%20OOP/Introduction_to_Classes_and_Objects.ipynb) - Cover the basics of classes, objects, variables, and methods.
+
+
 ## Getting Started
 
 1. Clone this repository to your local machine.
