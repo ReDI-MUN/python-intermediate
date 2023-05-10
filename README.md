@@ -14,6 +14,10 @@ This repository contains a collection of Jupyter notebooks designed to introduce
 1. [Intro_to_Object_Oriented_Programming.ipynb](lessons/10%20-%20Introduction%20to%20OOP/Introduction_to_Object_Oriented_Programming.ipynb) - Introduces object-oriented programming basic concepts
 2. [Introduction_to_Classes_and_Objects.ipynb](lessons/10%20-%20Introduction%20to%20OOP/Introduction_to_Classes_and_Objects.ipynb) - Cover the basics of classes, objects, variables, and methods.
 
+### Lesson 15: Abstraction in OOP
+1. [Introduction_to_Abstraction_in_OOP.ipynb](lessons/15%20-%20Abstraction%20in%20OOP/Introduction_to_Abstraction_in_OOP.ipynb) - An introduction to the concept of abstraction in Object-Oriented Programming (OOP), explaining its importance and how to use it in Python.
+2. [Exercise_-_OOP_Library.ipynb](lessons/15%20-%20Abstraction%20in%20OOP/Exercise_-_OOP_Library.ipynb) - This notebook provides practical exercises to apply the concept of abstraction in OOP by building a library system.
+
 
 ## Getting Started
 
