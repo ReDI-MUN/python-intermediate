@@ -1,70 +1,69 @@
 # -------------- MAP EXERCISES --------------
-# Exercise 1: Double Then Square
-def double_then_square(numbers):
+# Exercise 1: Square the Elements
+def square_elements(numbers):
     # TODO: Implement this function
     pass
 
 
-input1 = [1, 2, 3]
+input1 = [1, 2, 3, 4]
 output1 = []  # TODO: Add your output here
-assert double_then_square(input1) == output1
+assert square_elements(input1) == output1
 
 
-# Exercise 2: Reverse Strings
-def reverse_strings(strings):
+# Exercise 2: Capitalize Strings
+def capitalize_strings(strings):
     # TODO: Implement this function
     pass
 
 
-input2 = ['apple', 'banana']
+input2 = ['apple', 'banana', 'cherry']
 output2 = []  # TODO: Add your output here
-assert reverse_strings(input2) == output2
+assert capitalize_strings(input2) == output2
 
 
 # -------------- FILTER EXERCISES --------------
-# Exercise 3: Filter Strings with Vowels
-def filter_strings_with_vowels(strings):
+# Exercise 3: Filter Out Negative Numbers
+def filter_out_negatives(numbers):
     # TODO: Implement this function
     pass
 
 
-input3 = ['sky', 'apple', 'try']
+input3 = [-1, 2, -3, 4, -5]
 output3 = []  # TODO: Add your output here
-assert filter_strings_with_vowels(input3) == output3
+assert filter_out_negatives(input3) == output3
 
 
-# Exercise 4: Filter Multiples of N
-def filter_multiples_of_n(numbers, n):
+# Exercise 4: Filter Even-Length Strings
+def filter_even_length(strings):
     # TODO: Implement this function
     pass
 
 
-input4_numbers = [10, 15, 20, 25]
-input4_n = 5
+input4 = ['apple', 'banana', 'cherry', 'date']
 output4 = []  # TODO: Add your output here
-assert filter_multiples_of_n(input4_numbers, input4_n) == output4
+assert filter_even_length(input4) == output4
 
 
 # -------------- REDUCE EXERCISES --------------
-# Exercise 5: Find Maximum Length
-def find_maximum_length(strings):
+# Exercise 5: Product of Elements
+def product_of_elements(numbers):
     # TODO: Implement this function
     pass
 
 
-input5 = ['apple', 'banana', 'cherry']
+input5 = [1, 2, 3, 4]
 output5 = None  # TODO: Add your output here
-assert find_maximum_length(input5) == output5
+assert product_of_elements(input5) == output5
 
 
-# Exercise 6: Sum of Squares
-def sum_of_squares(numbers):
+# Exercise 6: Concatenate Strings
+def concatenate_strings(strings):
     # TODO: Implement this function
     pass
 
 
-input6 = [1, 2, 3, 4]
+input6 = ['apple', 'banana', 'cherry']
 output6 = None  # TODO: Add your output here
-assert sum_of_squares(input6) == output6
+assert concatenate_strings(input6) == output6
 
 print("All exercises passed!")
