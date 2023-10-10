@@ -14,7 +14,12 @@ import requests
 
 # Code to Test
 def process_number(num):
-    pass  # Your implementation here
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return 0
 
 # Instructions
 # 1. Write a test to verify that the function correctly identifies positive numbers.
@@ -37,7 +42,9 @@ def test_process_number_zero():
 
 # Code to Test
 def divide(a, b):
-    pass  # Your implementation here
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return a / b
 
 # Instructions
 # 1. Write a test to verify that the function correctly divides two numbers.
@@ -57,13 +64,15 @@ def test_divide_zero():
 # Code to Test
 class Calculator:
     def __init__(self):
-        pass  # Your implementation here
+        self.result = 0
 
     def add(self, a, b):
-        pass  # Your implementation here
+        self.result = a + b
+        return self.result
 
     def subtract(self, a, b):
-        pass  # Your implementation here
+        self.result = a - b
+        return self.result
 
 # Instructions
 # 1. Write a test to check if the `add` method correctly adds two numbers.
@@ -82,7 +91,10 @@ def test_calculator_subtract():
 
 # Code to Test
 def fetch_data(url):
-    pass  # Your implementation here
+    response = requests.get(url)
+    if response.status_code != 200:
+        raise Exception("Failed to fetch data")
+    return response.json()
 
 # Instructions
 # 1. Use a fixture to mock the `requests.get` method.
